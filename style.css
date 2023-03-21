@@ -1,0 +1,172 @@
+html,
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #090909;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  margin: 0 1.25rem;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* ===== Navbar ===== */
+nav {
+  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.19rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-left: 2em;
+}
+
+.nav-links a:hover,
+.nav-links a:active,
+.nav-links a:focus {
+  text-decoration: underline;
+}
+
+nav h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.88rem;
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+
+.logo img {
+  width: 1.45rem;
+  height: 1.45rem;
+}
+
+/* ===== Hero ===== */
+
+.hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.31)),
+    url(/images/blog-image-hero.png);
+  background-size: cover;
+  width: 100vw;
+  background-position: bottom;
+  color: #fff;
+}
+
+.hero-text {
+  flex-direction: column;
+  justify-content: end;
+  padding: 30% 0 1.56rem 0;
+}
+
+.hero-date {
+  font-size: 0.75rem;
+}
+
+.hero-text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  margin: 0.25em 0;
+  letter-spacing: -0.03em;
+  line-height: 108.2%;
+}
+
+.hero-text p {
+  line-height: 1.25em;
+  margin: 0;
+}
+
+/* ===== Blog ===== */
+.blog-post {
+  margin: 2.125rem 0 0.5rem 0;
+}
+
+.blog-post img {
+  width: 100%;
+  border-radius: 3px;
+  aspect-ratio: 187/116;
+  image-rendering: -webkit-optimize-contrast;
+  object-fit: cover;
+}
+
+.blog-text {
+  margin: 0.85rem 0 0 0;
+}
+
+.blog-text p {
+  line-height: 125%;
+  margin: 0;
+}
+
+.blog-post h2 {
+  font-size: 1.5rem;
+  margin: 0.5em 0;
+}
+
+.view-more {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  text-decoration-line: underline;
+  color: #000000;
+  margin: 1.125em 0 2.69em;
+}
+
+.view-more:hover,
+.view-more:active,
+.view-more:focus {
+  text-decoration: none;
+  color: #797979;
+  transition: 0.3s;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #202020;
+  text-align: center;
+  padding: 2.31em 0;
+}
+
+footer h6,
+footer p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+footer h6 {
+  letter-spacing: -0.03em;
+  color: #ececec;
+}
+
+footer p {
+  color: #d7d7d7;
+}
+
+/* ===== Article ===== */
+
+/* ===== Media Queries ===== */
