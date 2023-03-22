@@ -64,7 +64,6 @@ nav h3 {
 }
 
 /* ===== Hero ===== */
-
 .hero {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.31)),
     url(/images/blog-image-hero.png);
@@ -102,6 +101,10 @@ nav h3 {
 }
 
 /* ===== Blog ===== */
+.blog {
+  display: grid;
+}
+
 .blog-post {
   margin: 2.125rem 0 0.5rem 0;
 }
@@ -190,7 +193,7 @@ footer p {
 
 .article img {
   aspect-ratio: 16/8;
-  object-position: 20% 70%;
+  object-position: 0% 70%;
   margin: 1em 0;
 }
 
@@ -235,3 +238,107 @@ footer p {
 }
 
 /* ===== Media Queries ===== */
+@media (min-width: 768px) {
+  .container {
+    margin: 0 3.35rem;
+    max-width: 980px;
+  }
+
+  /* ===== Navbar ===== */
+  nav {
+    padding: 1.5rem 0;
+  }
+
+  .flex-nav {
+    gap: 0.28rem;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+    margin-left: 2em;
+  }
+
+  nav h3 {
+    font-size: 1.375rem;
+  }
+
+  .logo img {
+    width: 2.14rem;
+    height: 2.14rem;
+  }
+
+  /* ===== Hero ===== */
+  .hero {
+    background-position: 0% 70%;
+  }
+
+  .hero-text {
+    max-width: 655px;
+    padding: 30% 0 3.75rem 0;
+  }
+
+  .hero-date {
+    font-size: 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    max-width: 615px;
+  }
+
+  /* ===== Main blog ===== */
+  .blog {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.625rem;
+  }
+
+  .blog-post img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .view-more {
+    grid-column: 1 / -1;
+  }
+
+  /* ===== Article ===== */
+  .smaller-container {
+    margin: 0 auto;
+    max-width: 844px;
+  }
+
+  .article-img {
+    max-width: 979px;
+  }
+
+  .article-date {
+    font-size: 1rem;
+  }
+
+  .article h1 {
+    font-size: 2.25rem;
+    margin: 0.66em 0;
+  }
+
+  .article h2 {
+    font-size: 1.5rem;
+    margin: 0.5em 0;
+  }
+
+  .article p {
+    font-size: 1.12rem;
+    line-height: 1.25em;
+  }
+
+  .recent-posts {
+    font-size: 1.5rem;
+    grid-column: 1 / -1;
+    margin: 1.3em 0 -1em;
+  }
+
+  .empty {
+    height: 1em;
+  }
+}
