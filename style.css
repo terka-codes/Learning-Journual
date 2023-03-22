@@ -106,12 +106,16 @@ nav h3 {
   margin: 2.125rem 0 0.5rem 0;
 }
 
-.blog-post img {
+.blog-post img,
+.article img {
   width: 100%;
   border-radius: 3px;
-  aspect-ratio: 187/116;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
+}
+
+.blog-post img {
+  aspect-ratio: 187/116;
 }
 
 .blog-text {
@@ -168,5 +172,66 @@ footer p {
 }
 
 /* ===== Article ===== */
+.article {
+  color: #151515;
+  margin: 2em 0 3em;
+}
+
+.article-date {
+  font-size: 0.75rem;
+}
+
+.article h1 {
+  font-size: 2rem;
+  margin: 0.25em 0;
+  letter-spacing: -0.03em;
+  line-height: 108.2%;
+}
+
+.article img {
+  aspect-ratio: 16/8;
+  object-position: 20% 70%;
+  margin: 1em 0;
+}
+
+.article h2 {
+  font-size: 1rem;
+  margin: 0.5em 0;
+}
+
+.article p {
+  line-height: 1.25em;
+}
+
+.recent-posts {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.empty {
+  height: 3em;
+}
+
+/* ===== About Me ===== */
+.about-me img {
+  width: 11.37rem;
+}
+
+.about-me h1 {
+  font-size: 2.118rem;
+  width: 93%;
+  margin: 0.25em 0;
+  letter-spacing: -0.03em;
+  line-height: 108.2%;
+}
+
+.article-details {
+  margin: 3.35rem 0;
+}
+
+.about-me h2 {
+  font-size: 1rem;
+  margin: 0.5em 0;
+}
 
 /* ===== Media Queries ===== */
