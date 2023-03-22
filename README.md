@@ -6,6 +6,8 @@ The website uses a blog-like structure to practice Grid Template Areas and respo
 ## Take a look at the project
 👉[LIVE SITE HERE](https://terka-codes.github.io/Learning-Journual/)👈
 
+![2023-03-22 10 54 36 (1)](https://user-images.githubusercontent.com/107133029/226937537-c10908c9-448e-4b79-9839-93d99f455b56.gif)
+
 ## Features
 This website includes the following features:
 - Responsive design
