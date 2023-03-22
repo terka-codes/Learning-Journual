@@ -341,4 +341,17 @@ footer p {
   .empty {
     height: 1em;
   }
+
+  /* ===== About Me ===== */
+  .header-of-article {
+    display: flex;
+    gap: 2.06rem;
+    align-items: center;
+    margin: 5.6em 0 4em;
+  }
+
+  .about-me h2 {
+    font-size: 1.25rem;
+    margin: 0.5em 0;
+  }
 }
