@@ -4,7 +4,7 @@ This project is a simple website built using HTML and CSS. It is designed to sho
 The website uses a blog-like structure to practice Grid Template Areas and responsive design with units such as rem, em, fr, and percentages.
 
 ## Take a look at the project
-👉[LIVE SITE HERE](url)👈
+👉[LIVE SITE HERE](https://terka-codes.github.io/Learning-Journual/)👈
 
 ## Features
 This website includes the following features:
