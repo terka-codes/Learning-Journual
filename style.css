@@ -145,7 +145,6 @@ nav h3 {
 }
 
 .view-more:hover,
-.view-more:active,
 .view-more:focus {
   text-decoration: none;
   color: #797979;
@@ -240,7 +239,7 @@ footer p {
 /* ===== Media Queries ===== */
 @media (min-width: 768px) {
   .container {
-    margin: 0 3.35rem;
+    width: 95%
     max-width: 980px;
   }
 
@@ -303,6 +302,10 @@ footer p {
     grid-column: 1 / -1;
   }
 
+  footer {
+    width: 100vw;
+  }
+
   /* ===== Article ===== */
   .smaller-container {
     margin: 0 auto;
@@ -353,5 +356,12 @@ footer p {
   .about-me h2 {
     font-size: 1.25rem;
     margin: 0.5em 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    margin: 0 auto;
+    max-width: 980px;
   }
 }
